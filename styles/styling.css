@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+    height: 100%;
+	margin: 0;
+	background-position: center;
+	background-size: cover;
+	background-color: #ededef;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Josefin Slab', serif;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    color: black;
+	padding: 10% 10% 0% 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	font-family: 'Josefin Slab', serif;
+}
+
+li {
+    float: right;
+	padding: 1% 5% 0% 0%;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+	width:75px;
+	padding: 10% 0% 0% 32%;
+}
+
+.logo_div {
+	width:15%;
+	display:inline-block;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

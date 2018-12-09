@@ -59,7 +59,7 @@ section {
 	margin: 5% auto;
 }
 
-.pic {
+.pic_flow {
 	width: 100%;
 }
 
@@ -109,11 +109,12 @@ section {
 }
 
 a {
-	color: hotpink;
+	color: black;
+	text-decoration: none;
 }
 
-a:visited {
-    color: black;
+.links {
+	text-decoration: underline;
 }
 
 .container-kontakt {
@@ -220,7 +221,13 @@ fieldset {
  color:#888;
 }
 
+.flow_section {
+	width: 500px;
+}
 
+.flows {
+	margin-top: 15%;
+}
 
 
 

@@ -63,6 +63,11 @@ section {
 	width: 100%;
 }
 
+.pic_flow_logo {
+	width: 45%;
+	padding: 0% 0% 0% 27%
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -187,7 +192,7 @@ fieldset {
 	cursor:pointer;
 	width:347px;
 	border:none;
-	background:#749CD3;
+	background: #000000;
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -195,7 +200,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#09C;
+	background: #1E1C1C;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -223,6 +228,7 @@ fieldset {
 
 .flow_section {
 	width: 500px;
+	margin-bottom: 10%;
 }
 
 .flows {

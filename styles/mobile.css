@@ -44,7 +44,7 @@ li a {
 }
 
 .logo {
-	width: 75px;
+	width: 45px;
 	padding: 10% 0% 0% 32%;
 }
 
@@ -55,7 +55,7 @@ li a {
 }
 
 section {
-	width: 700px;
+	width: 300px;
 	margin: 5% auto;
 }
 
@@ -116,6 +116,7 @@ section {
 a {
 	color: black;
 	text-decoration: underline;
+	align-items: center;
 }
 
 .links {
@@ -227,7 +228,7 @@ fieldset {
 }
 
 .flow_section {
-	width: 500px;
+	width: 300px;
 	margin-bottom: 10%;
 }
 
@@ -242,7 +243,7 @@ fieldset {
   position: relative;
 }
 
-.input-hide {
+input {
   display: none;
 }
 
@@ -561,16 +562,3 @@ label:nth-child(5)::after {
     opacity: 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

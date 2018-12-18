@@ -562,3 +562,16 @@ label:nth-child(5)::after {
     opacity: 0;
   }
 }
+
+#gantt {
+	display: none;
+}
+
+#gantt_hide {
+	display: inline;
+}
+
+
+
+
+

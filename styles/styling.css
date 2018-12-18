@@ -562,6 +562,10 @@ label:nth-child(5)::after {
   }
 }
 
+#gantt_hide {
+	display: none;
+}
+
 
 
 

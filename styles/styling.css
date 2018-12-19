@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5 {
     text-align: left;
     position: absolute;
     color: black;
-	padding: 15% 10% 0% 5%;
+	padding: 15% 10% 0% 4%;
 }
 
 ul {
@@ -117,6 +117,10 @@ a {
 	color: black;
 	text-decoration: underline;
 }
+
+a:hover {
+	color: #C0C0C0;
+} 
 
 .links {
 	text-decoration: underline;

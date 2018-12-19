@@ -37,7 +37,9 @@
 		|
 		<a href="http://magnuswolter.dk/" class="links">Originalt portfolio</a>
 		|
-		<a href="#nytportfolio" class="links">Forbedret version</a>
+		<a href="http://magnuswolter.dk/portfolio_eksamen/" class="links">Forbedret version</a>
+		|
+		<a href="https://github.com/Woltrr/portfolio_eksamen" class="links">GitHub version</a>
 		
 			<p>Ovenfor ses skitsen som jeg har lavet til min forside til min nye portofolio. Ligesom på min originale portfolio, så ville jeg gerne have et billede der fyldte hele min forside. Jeg ville dog hellere have mere ”whitespace” på mit nye billede i forhold til det gamle, så det hang mere sammen med de andre sider som jeg gerne ville have skulle have en ren hvid baggrund.   
 			</p>
@@ -126,22 +128,22 @@
     <div class="inner">
       <article>
         <div class="info top-left"></div>
-        <img src="../billeder/Wireframe_forside.png"/>
+        <img src="../billeder/Wireframe_forside.png" alt="Wireframe forside"/>
       </article>
 
       <article>
         <div class="info bottom-right"></div>
-        <img src="../billeder/Wireframe_alle_projekter.png">
+        <img src="../billeder/Wireframe_alle_projekter.png" alt="Wireframe alle projekter">
       </article>
 
       <article>
         <div class="info bottom-left"></div>
-        <img src="../billeder/Wireframe_læring_projekter_om.png"/>
+        <img src="../billeder/Wireframe_læring_projekter_om.png" alt="Wireframe content sider"/>
       </article>
 
       <article>
         <div class="info top-right"></div>
-        <img src="../billeder/Wireframe_kontakt.png"/>
+        <img src="../billeder/Wireframe_kontakt.png" alt="Wireframe kontakt"/>
 		</article>
     </div>
     <!-- .inner -->
@@ -226,59 +228,6 @@
 			</p>
 
 		</section>
-	
-	
 
-	
-	
-
-	
-	
-	
-	
-	<script>
-	
-	var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-	
-	</script>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 </body>
 </html>
